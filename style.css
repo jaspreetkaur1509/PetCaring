@@ -1,0 +1,381 @@
+* html,body{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+
+.nav-link {
+    color: rgb(0 0 0);
+    font-weight: 400;
+    font-size: 17px;
+}
+
+#navbar-nav{
+    background-color: #FFFFFF;
+}
+
+/* Background Image */
+
+#dog-image{
+    background-image: url(Images/dog.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+
+#petdog h4{
+    font-size: 35px;
+    padding-bottom: 9px;
+    font-family:"Neue MontreaL";
+}
+
+#petdog h2{
+    font-size: 55px;
+    font-family: "NeueHaasDisplayBold";
+    font-weight: 700;
+}
+
+@media only screen and (max-width:1024px) {
+    #petdog h4{
+        font-size: 50px;
+        padding-bottom: 10px;
+        margin-top: 6%;
+    }
+
+    #petdog h2{
+        font-size: 70px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    #petdog h4{
+        font-size: 30px;
+        padding-bottom: 10px;
+        margin-top: 6%;
+        text-align: center;
+    }
+
+    #petdog h2{
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    #petdog h4{
+        font-size: 20px;
+        padding-bottom: 10%;
+        margin-top: 6%;
+    }
+
+    #petdog h2{
+        font-size: 40px;
+    }
+}
+
+/* Six div parts */
+
+#div1{
+    background-color: black;
+    color: aliceblue;
+    
+}
+
+.firstclass{
+    width: 300px;
+    height: 350px;
+    margin-top: 6%;
+}
+
+.firstclass i{
+    font-size: 75px;
+}
+
+.firstclass h2{
+    font-size: 34px;
+}
+
+.firstclass p{
+    font-size: 20px;
+}
+
+#div2{
+    margin-top: 0%;
+}
+
+.SecondClass {
+    width: 300px;
+    height: 350px;
+}
+
+/* background cat image */
+
+#catimage{
+    background-image: url(Images/cat.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#textcolor {
+    padding: 8%;
+}
+
+#textcolor h1 {
+    padding-bottom: 4%;
+    font-size: 42px;
+    font-family: "NeueHaasDisplayBold";
+}
+
+#textcolor h3 {
+    padding-bottom: 4%;
+    font-size: 30px;
+    font-family: "NeueHaasDisplayBold";
+}
+
+@media only screen and (max-width:1024px) {
+    #textcolor h1{
+        font-size: 55px;
+        padding-bottom: 6%;
+    }
+
+    
+#textcolor h3 {
+    padding-bottom: 5%;
+    font-size: 40px;
+}
+}
+
+
+@media only screen and (max-width:500px) {
+    #textcolor h1{
+        font-size: 25px;
+        padding-top: 5%;
+    }
+
+    
+#textcolor h3 {
+    padding-bottom: 5%;
+    font-size: 20px;
+}
+}
+
+@media only screen and (max-width:300px) {
+    #textcolor h1{
+        font-size: 15px;
+        padding-top: 5%;
+    }
+
+    
+#textcolor h3 {
+    padding-bottom: 5%;
+    font-size: 15px;
+}
+}
+
+
+/* Rescue a pet */
+
+.Rescue{
+    margin: 7% 0;
+}
+
+#pihu{
+    background-color: black;
+    width: 450px;
+     height :600px;
+}
+
+#part{
+    background-color: #E5E5E5;
+}
+
+#pihu2{
+    width: 450px;
+    height :600px;
+}
+
+#pet{
+    margin-left: 10%;
+}
+
+#part1 img{
+    width: 500px;
+    height: 500px;
+}
+
+#part1{
+    background-color: #E5E5E5;
+}
+
+.training{
+    text-align: right;
+    padding-bottom: 3%;
+    font-family:"Neue MontreaL";
+}
+
+.training h2{
+    font-weight: 300;
+    font-family: "Aclonica";
+}
+
+.training h1{
+    font-weight: 500;
+    font-size: 30px;
+    font-family:"Neue MontreaL";
+}
+
+#training1{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:"Neue MontreaL";
+    padding-bottom: 3%;
+}
+
+@media only screen and (max-width:1024px) {
+    .Rescue{
+        width: 100vw;
+        font-size: 30px;
+    }
+
+    .Rescue img{
+        width: 800px;
+        height: 500px;
+        margin-bottom: 5%;
+    }
+
+    #pet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .Rescue{
+        width: 100vw;
+        font-size: 30px;
+    }
+
+    .Rescue img{
+        width: 800px;
+        height: 500px;
+        margin-bottom: 5%;
+    }
+
+    #pet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width:375px) {
+    .Rescue{
+        width: 100vw;
+        font-size: 15px;
+        margin-top: 6%;
+        padding: 5%;
+    }
+
+    .Rescue p{
+        font-size: 15px;
+    }
+
+    
+    .Rescue img{
+        width: 800px;
+        height: 500px;
+        margin-bottom: 5%;
+    }
+
+    #pet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #part1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+
+    }
+
+    #part1 img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+  /* Basic Two Blog */
+
+  /* blackdiv */
+
+  #blackdiv i{
+    font-size: 30px;
+    padding-left: 8px;
+  }
+
+  @media only screen and (max-width:400px) {
+    #blog h3,h4{
+        text-align: left;
+        font-size: 25px;
+        padding-bottom: 4%;
+    }
+
+    #blog p{
+        font-size: 15px;
+        text-align: center;
+    }
+  }
+
+
+  /* footer */
+
+  #footer{
+    background-image: url(Images/dog22.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
+
+.custom-height {
+    height:40px; 
+    width: 300px;
+  }
+
+  .btn{
+    width: 210px;
+    font-size: 22px;
+    padding: 5px 6px;
+    
+  }
+
+  .formtable{
+    padding-left: 40%;
+    text-align: left;
+  }
+
+  #label1{
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  @media only screen and (max-width:375) {
+    .custom-height {
+        height:30px; 
+        width: 30px;
+      }
+
+      .formtable{
+        text-align: center;
+      }
+}
